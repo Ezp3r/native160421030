@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.ezper.native160421030.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_game_fragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.ezper.native160421030.GameFragment"
+        android:label="Game"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_result_fragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@android:anim/fade_in" />
+        <argument
+            android:name="player_name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.ezper.native160421030.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_home_fragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/cycle_interpolator" />
+    </fragment>
+</navigation>
