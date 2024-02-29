@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.ezper.native160421030"
-    compileSdk = 33
+    compileSdk = 34
 
     buildFeatures {
         viewBinding = true
