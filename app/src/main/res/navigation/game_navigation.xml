@@ -34,5 +34,12 @@
         android:id="@+id/resultFragment"
         android:name="com.ezper.native160421030.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_home_fragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>
