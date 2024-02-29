@@ -5,18 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.ezper.native160421030.databinding.FragmentGameBinding
 import com.ezper.native160421030.databinding.FragmentMainBinding
 
-class MainFragment : Fragment() {
+class GameFragment : Fragment() {
 
-    private lateinit var binding:FragmentMainBinding
+    private lateinit var binding: FragmentGameBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentMainBinding.inflate(inflater, container, false)
+        binding = FragmentGameBinding.inflate(inflater, container, false)
         return binding.root
     }
 
