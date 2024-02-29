@@ -27,25 +27,24 @@ class GameFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val rnds1 = (0..100).random()
-        val rnds2 = (0..100).random()
+        var rnds1 = (0..100).random()
+        var rnds2 = (0..100).random()
 
-        val score = 0
+        var score = 0
 
         if(arguments != null){
-            val playername = GameFragmentArgs.fromBundle(requireArguments()).playerName
-            binding.txtTurn.text = "$playername's turn"
+            val playerName = GameFragmentArgs.fromBundle(requireArguments()).playerName
+            binding.txtTurn.text = "$playerName's turn"
             binding.txtRand.text = "$rnds1 + $rnds2"
         }
 
         binding.btnSubmit.setOnClickListener {
-            val answer = Integer.parseInt(binding.txtAnswer.text.toString())
+            var answer = Integer.parseInt(binding.txtAnswer.text.toString())
             if (rnds1 + rnds2 == answer){
-                score+1
-                val rnds1 = (0..100).random()
-                val rnds2 = (0..100).random()
+                score = score+1
+                rnds1 = (0..100).random()
+                rnds2 = (0..100).random()
                 binding.txtRand.text = "$rnds1 + $rnds2"
-                binding.txtAnswer.setText(0)
             }
             else{
                 val action = GameFragmentDirections.actionResultFragment(score)

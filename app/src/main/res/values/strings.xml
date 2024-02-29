@@ -5,4 +5,7 @@
     <string name="enter_answer" />
     <string name="hint" />
     <string name="add_hint">Add the numbers</string>
+    <string name="back_home">Back to Main Screen</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="your_score">Your score is x</string>
 </resources>

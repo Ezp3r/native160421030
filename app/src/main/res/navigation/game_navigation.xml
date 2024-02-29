@@ -13,8 +13,7 @@
         <action
             android:id="@+id/action_game_fragment"
             app:destination="@id/gameFragment"
-            app:enterAnim="@android:anim/slide_out_right"
-            app:exitAnim="@android:anim/slide_in_left" />
+            app:enterAnim="@android:anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
@@ -24,8 +23,7 @@
         <action
             android:id="@+id/action_result_fragment"
             app:destination="@id/resultFragment"
-            app:enterAnim="@android:anim/fade_in"
-            app:exitAnim="@android:anim/fade_out" />
+            app:enterAnim="@android:anim/fade_in" />
         <argument
             android:name="player_name"
             app:argType="string" />
@@ -33,13 +31,14 @@
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.ezper.native160421030.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
+        android:label="Result"
+        tools:layout="@layout/fragment_result">
         <argument
             android:name="score"
             app:argType="integer" />
         <action
             android:id="@+id/action_home_fragment"
-            app:destination="@id/mainFragment" />
+            app:destination="@id/mainFragment"
+            app:enterAnim="@android:anim/cycle_interpolator" />
     </fragment>
 </navigation>

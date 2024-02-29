@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
-import com.ezper.native160421030.databinding.FragmentGameBinding
 import com.ezper.native160421030.databinding.FragmentResultBinding
 
 class ResultFragment : Fragment() {
