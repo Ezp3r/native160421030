@@ -25,13 +25,16 @@ class ResultFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if(arguments != null){
-            val score = ResultFragmentArgs.fromBundle(requireArguments()).score
+            val score = arguments?.let {
+                ResultFragmentArgs.fromBundle(it).score
+            } ?: 0 // Default to 0 if score is null
+
             binding.txtGameOver.text = "GAME OVER"
             binding.txtScore.text = "Your score is $score"
         }
 
         binding.btnHome.setOnClickListener {
-            val action = ResultFragmentDirections.actionHomeFragment()
+            val action = ResultFragmentDirections.actionResultFragmentToMainFragment3()
             Navigation.findNavController(it).navigate(action)
         }
     }

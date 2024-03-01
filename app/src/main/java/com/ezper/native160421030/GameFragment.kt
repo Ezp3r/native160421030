@@ -39,7 +39,14 @@ class GameFragment : Fragment() {
         }
 
         binding.btnSubmit.setOnClickListener {
-            var answer = Integer.parseInt(binding.txtAnswer.text.toString())
+            var answer = 0
+
+            try {
+                // cek jika ada isi integer
+                answer = Integer.parseInt(binding.txtAnswer.text.toString())
+            } catch (e: NumberFormatException) {
+                // jika tidak ada maka tetap 0
+            }
             if (rnds1 + rnds2 == answer){
                 score = score+1
                 rnds1 = (0..100).random()
