@@ -21,14 +21,18 @@ public final class FragmentMainBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button btnSetting;
+
+  @NonNull
   public final Button btnStart;
 
   @NonNull
   public final EditText txtName;
 
-  private FragmentMainBinding(@NonNull FrameLayout rootView, @NonNull Button btnStart,
-      @NonNull EditText txtName) {
+  private FragmentMainBinding(@NonNull FrameLayout rootView, @NonNull Button btnSetting,
+      @NonNull Button btnStart, @NonNull EditText txtName) {
     this.rootView = rootView;
+    this.btnSetting = btnSetting;
     this.btnStart = btnStart;
     this.txtName = txtName;
   }
@@ -60,6 +64,12 @@ public final class FragmentMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnSetting;
+      Button btnSetting = ViewBindings.findChildViewById(rootView, id);
+      if (btnSetting == null) {
+        break missingId;
+      }
+
       id = R.id.btnStart;
       Button btnStart = ViewBindings.findChildViewById(rootView, id);
       if (btnStart == null) {
@@ -72,7 +82,7 @@ public final class FragmentMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMainBinding((FrameLayout) rootView, btnStart, txtName);
+      return new FragmentMainBinding((FrameLayout) rootView, btnSetting, btnStart, txtName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

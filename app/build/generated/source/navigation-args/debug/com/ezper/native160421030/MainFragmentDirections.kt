@@ -1,6 +1,7 @@
 package com.ezper.native160421030
 
 import android.os.Bundle
+import androidx.navigation.ActionOnlyNavDirections
 import androidx.navigation.NavDirections
 import kotlin.Int
 import kotlin.String
@@ -22,5 +23,8 @@ public class MainFragmentDirections private constructor() {
   public companion object {
     public fun actionGameFragment(playerName: String): NavDirections =
         ActionGameFragment(playerName)
+
+    public fun actionOptionFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.actionOptionFragment)
   }
 }
