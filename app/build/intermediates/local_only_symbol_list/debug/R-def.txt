@@ -10,7 +10,7 @@ color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id action_game_fragment
-id action_home_fragment
+id action_resultFragment_to_mainFragment3
 id action_result_fragment
 id btnHome
 id btnStart

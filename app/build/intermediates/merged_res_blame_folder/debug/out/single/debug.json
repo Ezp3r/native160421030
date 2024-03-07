@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "com.ezper.native160421030.app-merged_res-47:/navigation_game_navigation.xml.flat",
