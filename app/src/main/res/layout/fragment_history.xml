@@ -12,7 +12,7 @@
         android:fontFamily="sans-serif-condensed"
         android:gravity="center"
         android:text="HISTORY"
-        android:textColor="@color/black"
+        android:textColor="@color/material_dynamic_primary80"
         android:textSize="24sp"
         android:textStyle="bold" />
 

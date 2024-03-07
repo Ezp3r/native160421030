@@ -12,36 +12,24 @@
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_baseline_format_list_bulleted_24.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\baseline_format_list_bulleted_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\menu\\bottom_menu.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/navigation_game_navigation.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/navigation/game_navigation.xml"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/drawable_baseline_settings_24.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/drawable/baseline_settings_24.xml"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/drawable_baseline_person_24.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/drawable/baseline_person_24.xml"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/drawable_baseline_format_list_bulleted_24.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/drawable/baseline_format_list_bulleted_24.xml"
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\layout_fragment_result.xml.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\layout\\fragment_result.xml"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/layout_fragment_option.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/layout/fragment_option.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -72,24 +60,20 @@
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/menu_bottom_menu.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/menu/bottom_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/layout_activity_main.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\layout_fragment_option.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\layout\\fragment_option.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\layout\\fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/layout_fragment_main.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/layout/fragment_main.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -100,8 +84,12 @@
         "source": "com.ezper.native160421030.app-main-49:/layout/fragment_history.xml"
     },
     {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/layout_fragment_profile.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\baseline_home_24.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-anydpi_ic_launcher.xml.flat",
@@ -114,6 +102,14 @@
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\drawable_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\drawable\\baseline_settings_24.xml"
     },
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\layout_fragment_main.xml.flat",
@@ -130,9 +126,5 @@
     {
         "merged": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-merged_res-47:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Jason\\.gradle\\daemon\\8.0\\com.ezper.native160421030.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.ezper.native160421030.app-merged_res-47:/drawable_baseline_home_24.xml.flat",
-        "source": "com.ezper.native160421030.app-main-49:/drawable/baseline_home_24.xml"
     }
 ]

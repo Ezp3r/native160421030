@@ -17,15 +17,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setContentView(R.layout.activity_main)
 
         navController = (supportFragmentManager.findFragmentById(R.id.navHost) as NavHostFragment).navController
         NavigationUI.setupActionBarWithNavController(this,navController)
 
         binding.bottomNav.setupWithNavController(navController)
+
+        NavigationUI.setupActionBarWithNavController(this,navController,binding.drawerLayout)
+        NavigationUI.setupWithNavController(binding.navView, navController)
     }
 
     override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp()
+        return NavigationUI.navigateUp(navController, binding.drawerLayout)
+                || super.onSupportNavigateUp()
     }
 }

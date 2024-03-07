@@ -25,6 +25,8 @@ class OptionFragment : BottomSheetDialogFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val adapter = ArrayAdapter<String>(requireContext(),android.R.layout.simple_dropdown_item_1line,level)
+
+        binding.txtLevel.setAdapter(adapter)
     }
 
 }

@@ -26,12 +26,14 @@ id button
 id checkBox
 id checkBox2
 id checkBox3
+id drawerLayout
 id gameFragment
 id game_navigation
 id itemHistory
 id itemHome
 id itemProfile
 id navHost
+id navView
 id optionFragment
 id resultFragment
 id textInputLayout
